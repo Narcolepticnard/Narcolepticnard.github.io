@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(xbox-assets/base.jpeg);
+    background: url(xbox-assets/base-white.jpeg);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -72,44 +72,6 @@
     transform: rotateY(180deg);
 }
 
-.xbox .quadrant {
-    position: absolute;
-    background: url(xbox-assets/quadrant.jpeg);
-    height: 45px;
-    width: 45px;
-    top: 258px;
-    left: 354px;
-    z-index: 0;
-}
-
-.xbox .p0 {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-}
-
-.xbox .p1 {
-    -webkit-transform: rotate(90deg);
-    transform: rotate(90deg);
-}
-
-.xbox .p2 {
-    -webkit-transform: rotate(270deg);
-    transform: rotate(270deg);
-}
-
-.xbox .p3 {
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-}
-
-.xbox .arrows {
-    position: absolute;
-    width: 141px;
-    height: 33px;
-    top: 264px;
-    left: 306px;
-}
-
 .xbox .back, .xbox .start {
     background: url(xbox-assets/start-select.jpeg);
     width: 33px;
@@ -140,7 +102,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svg);
+    background: url(xbox-assets/abxy.jpeg);
     width: 48px;
     height: 48px;
 }
