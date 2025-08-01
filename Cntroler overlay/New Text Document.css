@@ -1,16 +1,9 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-   background: url(https://github.com/Narcolepticnard/Narcolepticnard.github.io/blob/main/Cntroler%20overlay/base-white.png);
+   background: url(Cntroler overlay/base-white.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
-.xbox .face {
-    background: url(Narcolepticnard.github.io/Cntroler overlay/dpad.png.png);
-    position: absolute;
-    opacity: 0;
-}
-
-/*END Xbox One Controller Styling*/
